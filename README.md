@@ -13,7 +13,7 @@
   	  ├── transxnet.py: Construct "transxnet" model
   ├── util: 
   	  ├── engine.py: Function code for a training/validation process
-        ├── losses.py: Knowledge distillation loss, combined with teacher model (if any)
+      ├── losses.py: Knowledge distillation loss, combined with teacher model (if any)
   	  ├── optimizer.py: Define Sophia optimizer
   	  ├── samplers.py: Define the parameter of "sampler" in Dataloader
       ├── utils.py: Record various indicator information and output and distributed environment
