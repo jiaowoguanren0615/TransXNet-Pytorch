@@ -4,21 +4,21 @@
 
 ## Project Structure
 ```
-  ├── __datasets__: Load datasets
-  	  ├── __my_dataset.py__: Customize reading data sets and define transforms data enhancement methods
-  	  ├── __split_data.py__: Define the function to read the image data set and divide the training set and test set
-  	  ├── __threeaugment.py__: Additional data augmentation methods
-  ├── __models__: TransXNet Model
-  	  ├── __poolformer.py__: Construct "poolformer" model
-  	  ├── __transxnet.py__: Construct "transxnet" model
-  ├── __util__: 
-  	  ├── __engine.py__: Function code for a training/validation process
-      ├── __losses.py__: Knowledge distillation loss, combined with teacher model (if any)
-  	  ├── __optimizer.py__: Define Sophia optimizer
-  	  ├── __samplers.py__: Define the parameter of "sampler" in Dataloader
-      ├── __utils.py__: Record various indicator information and output and distributed environment
-  ├── __estimate_model.py__: Visualized evaluation indicators ROC curve, confusion matrix, classification report, etc.
-  └── __train_gpu.py__: Training model startup file
+  ├── datasets: Load datasets
+  	  ├── my_dataset.py: Customize reading data sets and define transforms data enhancement methods
+  	  ├── split_data.py: Define the function to read the image data set and divide the training set and test set
+  	  ├── threeaugment.py: Additional data augmentation methods
+  ├── models: TransXNet Model
+  	  ├── poolformer.py: Construct "poolformer" model
+  	  ├── transxnet.py: Construct "transxnet" model
+  ├── util: 
+  	  ├── engine.py: Function code for a training/validation process
+      ├── losses.py: Knowledge distillation loss, combined with teacher model (if any)
+  	  ├── optimizer.py: Define Sophia optimizer
+  	  ├── samplers.py: Define the parameter of "sampler" in Dataloader
+      ├── utils.py: Record various indicator information and output and distributed environment
+  ├── estimate_model.py: Visualized evaluation indicators ROC curve, confusion matrix, classification report, etc.
+  └── train_gpu.py: Training model startup file
 ```
 
 ## Precautions
