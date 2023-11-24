@@ -6,7 +6,7 @@
 ```
   ├── datasets: Load datasets
   	  ├── my_dataset.py: Customize reading data sets and define transforms data enhancement methods
-  	  ├── split_data.py: Define the function to read the image data set and divide the training set and test set
+  	  ├── split_data.py: Define the function to read the image dataset and divide the training-set and test-set
   	  ├── threeaugment.py: Additional data augmentation methods
   ├── models: TransXNet Model
   	  ├── poolformer.py: Construct "poolformer" model
@@ -15,7 +15,7 @@
   	  ├── engine.py: Function code for a training/validation process
       ├── losses.py: Knowledge distillation loss, combined with teacher model (if any)
   	  ├── optimizer.py: Define Sophia optimizer
-  	  ├── samplers.py: Define the parameter of "sampler" in Dataloader
+  	  ├── samplers.py: Define the parameter of "sampler" in DataLoader
       ├── utils.py: Record various indicator information and output and distributed environment
   ├── estimate_model.py: Visualized evaluation indicators ROC curve, confusion matrix, classification report, etc.
   └── train_gpu.py: Training model startup file
