@@ -167,7 +167,7 @@ def get_args_parser():
                         help='set BN layers to eval mode during finetuning.')
 
     # Dataset parameters
-    parser.add_argument('--data_root', default='/usr/local/Huangshuqi/ImageData/flower_data', type=str,
+    parser.add_argument('--data_root', default='/flower_data', type=str,
                         help='dataset path')
     parser.add_argument('--nb_classes', default=5, type=int,
                         help='number classes of your dataset')
